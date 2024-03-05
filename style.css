@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1rem;
+}
+body{
+    background-color: #191a1c;
+    color: white;
+    font-family: 'Poppins';
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    
+}
+.left{
+    line-height:80px;
+    font-size: 1.5rem;
+    font-weight:900 ;
+    margin: 0 20px 0 6vw ;
+    
+}
+.right{
+    line-height: 80px;
+    margin: 0  4vw  0 20px;
+}
+ul{
+    display: flex;
+    line-height: 80px;
+}
+ul li a{
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+.rightSection{
+     width: 40vw;
+     height: 100vw;
+}
+.left span{
+    color: #fe1b45;
+    font-size: 1.5rem;
+}
+.btn{
+    background: #fe1b45;
+    color: white;
+    border:none ;
+    border-radius: 50px;
+}
+#btn1{
+    padding:10px  30px ;
+}
+
+.section1{
+    display: flex;
+    height:100vh;
+    justify-content: space-between;
+}
+.leftSection{
+    
+    width: 60vh;
+    height: 100vh;
+    
+}
+.leftSection .intro{
+    font-size:2rem ;
+    margin: 18vh 0 0 6vw ;
+    font-weight: 800;
+}
+.intro span{
+   
+    font-size: 2rem;
+    color: #fe1b45;
+    font-weight: 800;
+}
+.special{
+    font-weight: 800;
+}
+.intro2{
+     font-size: 2rem;
+     font-weight: 800;
+}
+#btn2{
+    padding: 10px 20px;
+}
+.down{
+    margin:25px 0;
+}
+
+.rightSection .bg{
+  margin: 13vh 2vw 0 20px;
+  width: 300px;
+  height: 300px;
+  background-color: #fe1b45;
+  border-radius: 60% 40% 40% 60% / 60% 40% 60% 40%;
+  overflow: hidden;
+  animation: flow 3s infinite ease-in-out;
+}
+.sec2{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.secHead{
+    font-size:3.2rem;
+    font-weight: 800;
+    text-align: center;
+    width: 100vw;
+    height: 6vh;
+    
+}
+.box{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.sec3{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+
+.sec4{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+@keyframes flow {
+  0% {
+    border-radius: 60% 40% 40% 60% / 60% 40% 60% 40%;
+  }
+
+  35% {
+    border-radius: 80% 70% 60% 60% / 80% 70% 60% 60%;
+  }
+
+  70% {
+    border-radius: 70% 90% 60% 70% / 80% 90% 50% 90%;
+  }
+
+  100% {
+    border-radius: 60% 40% 40% 60% / 60% 40% 60% 40%;
+  }
+}
